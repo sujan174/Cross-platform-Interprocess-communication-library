@@ -1,0 +1,10 @@
+MANIFEST.in
+setup.py
+cross_ipc/__init__.py
+cross_ipc/_cross_ipc.py
+cross_ipc/cross-ipc.dll
+cross_ipc.egg-info/PKG-INFO
+cross_ipc.egg-info/SOURCES.txt
+cross_ipc.egg-info/dependency_links.txt
+cross_ipc.egg-info/not-zip-safe
+cross_ipc.egg-info/top_level.txt

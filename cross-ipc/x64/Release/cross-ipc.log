@@ -1,0 +1,78 @@
+﻿  dispenser_pattern.c
+  lock.c
+  main.c
+  named_pipe.c
+C:\GIthubProjects\cross-ipc\cross-ipc\named_pipe.c(6,24): warning C4133: 'function': incompatible types - from 'char *' to 'LPCWSTR'
+C:\GIthubProjects\cross-ipc\cross-ipc\named_pipe.c(22,28): warning C4133: 'function': incompatible types - from 'char *' to 'LPCWSTR'
+C:\GIthubProjects\cross-ipc\cross-ipc\named_pipe.c(34,53): warning C4267: 'function': conversion from 'size_t' to 'DWORD', possible loss of data
+  ordinary_pipe.c
+C:\GIthubProjects\cross-ipc\cross-ipc\ordinary_pipe.c(18,54): warning C4267: 'function': conversion from 'size_t' to 'DWORD', possible loss of data
+  pub_sub_pattern.c
+  req_resp_pattern.c
+  shared_memory.c
+C:\GIthubProjects\cross-ipc\cross-ipc\shared_memory.c(231,16): warning C4477: 'printf' : format string '%zu' requires an argument of type 'unsigned __int64', but variadic argument 1 has type 'uint32_t'
+C:\GIthubProjects\cross-ipc\cross-ipc\shared_memory.c(231,16): message : consider using '%u' in the format string
+C:\GIthubProjects\cross-ipc\cross-ipc\shared_memory.c(231,16): message : consider using '%I32u' in the format string
+  shm_dispenser_pattern.c
+  store_dict_pattern.c
+C:\GIthubProjects\cross-ipc\cross-ipc\store_dict_pattern.c(508,117): warning C4142: 'StoreDictPattern_store': benign redefinition of type
+C:\GIthubProjects\cross-ipc\cross-ipc\store_dict_pattern.h(52,6): message : see declaration of 'StoreDictPattern_store'
+  cross_ipc.c
+C:\GIthubProjects\cross-ipc\cross-ipc\cross_ipc.c(11,102): error C2491: 'StoreDictPattern_create': definition of dllimport function not allowed
+C:\GIthubProjects\cross-ipc\cross-ipc\cross_ipc.c(19,69): error C2491: 'StoreDictPattern_destroy': definition of dllimport function not allowed
+C:\GIthubProjects\cross-ipc\cross-ipc\cross_ipc.c(26,71): error C2491: 'StoreDictPattern_setup_api': definition of dllimport function not allowed
+C:\GIthubProjects\cross-ipc\cross-ipc\cross_ipc.c(30,114): error C2491: 'StoreDictPattern_store_string_api': definition of dllimport function not allowed
+C:\GIthubProjects\cross-ipc\cross-ipc\cross_ipc.c(34,99): error C2491: 'StoreDictPattern_retrieve_string_api': definition of dllimport function not allowed
+C:\GIthubProjects\cross-ipc\cross-ipc\cross_ipc.c(38,71): error C2491: 'StoreDictPattern_close_api': definition of dllimport function not allowed
+C:\GIthubProjects\cross-ipc\cross-ipc\cross_ipc.c(42,70): error C2491: 'StoreDictPattern_load_api': definition of dllimport function not allowed
+C:\GIthubProjects\cross-ipc\cross-ipc\cross_ipc.c(65,96): error C2491: 'PubSubPattern_create': definition of dllimport function not allowed
+C:\GIthubProjects\cross-ipc\cross-ipc\cross_ipc.c(73,65): error C2491: 'PubSubPattern_destroy': definition of dllimport function not allowed
+C:\GIthubProjects\cross-ipc\cross-ipc\cross_ipc.c(80,67): error C2491: 'PubSubPattern_setup_api': definition of dllimport function not allowed
+C:\GIthubProjects\cross-ipc\cross-ipc\cross_ipc.c(84,116): error C2491: 'PubSubPattern_publish_string_api': definition of dllimport function not allowed
+C:\GIthubProjects\cross-ipc\cross-ipc\cross_ipc.c(89,55): error C2491: 'PubSubPattern_subscribe_api': definition of dllimport function not allowed
+C:\GIthubProjects\cross-ipc\cross-ipc\cross_ipc.c(97,67): error C2491: 'PubSubPattern_close_api': definition of dllimport function not allowed
+C:\GIthubProjects\cross-ipc\cross-ipc\cross_ipc.c(102,118): error C2491: 'ShmDispenserPattern_create': definition of dllimport function not allowed
+C:\GIthubProjects\cross-ipc\cross-ipc\cross_ipc.c(110,80): error C2491: 'ShmDispenserPattern_destroy': definition of dllimport function not allowed
+C:\GIthubProjects\cross-ipc\cross-ipc\cross_ipc.c(117,117): error C2491: 'ShmDispenserPattern_setup_api': definition of dllimport function not allowed
+C:\GIthubProjects\cross-ipc\cross-ipc\cross_ipc.c(121,105): error C2491: 'ShmDispenserPattern_add_string_api': definition of dllimport function not allowed
+C:\GIthubProjects\cross-ipc\cross-ipc\cross_ipc.c(125,111): error C2491: 'ShmDispenserPattern_add_string_front_api': definition of dllimport function not allowed
+C:\GIthubProjects\cross-ipc\cross-ipc\cross_ipc.c(129,93): error C2491: 'ShmDispenserPattern_dispense_string_api': definition of dllimport function not allowed
+C:\GIthubProjects\cross-ipc\cross-ipc\cross_ipc.c(133,98): error C2491: 'ShmDispenserPattern_dispense_string_back_api': definition of dllimport function not allowed
+C:\GIthubProjects\cross-ipc\cross-ipc\cross_ipc.c(137,89): error C2491: 'ShmDispenserPattern_peek_string_api': definition of dllimport function not allowed
+C:\GIthubProjects\cross-ipc\cross-ipc\cross_ipc.c(141,94): error C2491: 'ShmDispenserPattern_peek_string_back_api': definition of dllimport function not allowed
+C:\GIthubProjects\cross-ipc\cross-ipc\cross_ipc.c(145,85): error C2491: 'ShmDispenserPattern_is_empty_api': definition of dllimport function not allowed
+C:\GIthubProjects\cross-ipc\cross-ipc\cross_ipc.c(149,84): error C2491: 'ShmDispenserPattern_is_full_api': definition of dllimport function not allowed
+C:\GIthubProjects\cross-ipc\cross-ipc\cross_ipc.c(153,82): error C2491: 'ShmDispenserPattern_clear_api': definition of dllimport function not allowed
+C:\GIthubProjects\cross-ipc\cross-ipc\cross_ipc.c(157,82): error C2491: 'ShmDispenserPattern_close_api': definition of dllimport function not allowed
+C:\GIthubProjects\cross-ipc\cross-ipc\cross_ipc.c(162,80): error C2491: 'NamedPipe_create': definition of dllimport function not allowed
+C:\GIthubProjects\cross-ipc\cross-ipc\cross_ipc.c(172,55): error C2491: 'NamedPipe_destroy': definition of dllimport function not allowed
+C:\GIthubProjects\cross-ipc\cross-ipc\cross_ipc.c(181,63): error C2491: 'NamedPipe_create_pipe_api': definition of dllimport function not allowed
+C:\GIthubProjects\cross-ipc\cross-ipc\cross_ipc.c(185,64): error C2491: 'NamedPipe_connect_pipe_api': definition of dllimport function not allowed
+C:\GIthubProjects\cross-ipc\cross-ipc\cross_ipc.c(189,85): error C2491: 'NamedPipe_send_message_api': definition of dllimport function not allowed
+C:\GIthubProjects\cross-ipc\cross-ipc\cross_ipc.c(193,68): error C2491: 'NamedPipe_receive_message_api': definition of dllimport function not allowed
+C:\GIthubProjects\cross-ipc\cross-ipc\cross_ipc.c(197,62): error C2491: 'NamedPipe_close_pipe_api': definition of dllimport function not allowed
+C:\GIthubProjects\cross-ipc\cross-ipc\cross_ipc.c(202,63): error C2491: 'OrdinaryPipe_create': definition of dllimport function not allowed
+C:\GIthubProjects\cross-ipc\cross-ipc\cross_ipc.c(212,61): error C2491: 'OrdinaryPipe_destroy': definition of dllimport function not allowed
+C:\GIthubProjects\cross-ipc\cross-ipc\cross_ipc.c(218,69): error C2491: 'OrdinaryPipe_create_pipe_api': definition of dllimport function not allowed
+C:\GIthubProjects\cross-ipc\cross-ipc\cross_ipc.c(222,91): error C2491: 'OrdinaryPipe_send_message_api': definition of dllimport function not allowed
+C:\GIthubProjects\cross-ipc\cross-ipc\cross_ipc.c(226,74): error C2491: 'OrdinaryPipe_receive_message_api': definition of dllimport function not allowed
+C:\GIthubProjects\cross-ipc\cross-ipc\cross_ipc.c(230,68): error C2491: 'OrdinaryPipe_close_pipe_api': definition of dllimport function not allowed
+C:\GIthubProjects\cross-ipc\cross-ipc\cross_ipc.c(235,92): error C2491: 'SharedMemory_create': definition of dllimport function not allowed
+C:\GIthubProjects\cross-ipc\cross-ipc\cross_ipc.c(243,60): error C2491: 'SharedMemory_destroy': definition of dllimport function not allowed
+C:\GIthubProjects\cross-ipc\cross-ipc\cross_ipc.c(250,62): error C2491: 'SharedMemory_setup_api': definition of dllimport function not allowed
+C:\GIthubProjects\cross-ipc\cross-ipc\cross_ipc.c(254,80): error C2491: 'SharedMemory_write_api': definition of dllimport function not allowed
+C:\GIthubProjects\cross-ipc\cross-ipc\cross_ipc.c(259,113): error C2491: 'SharedMemory_write_bytes_api': definition of dllimport function not allowed
+C:\GIthubProjects\cross-ipc\cross-ipc\cross_ipc.c(263,62): error C2491: 'SharedMemory_read_api': definition of dllimport function not allowed
+C:\GIthubProjects\cross-ipc\cross-ipc\cross_ipc.c(267,95): error C2491: 'SharedMemory_read_bytes_api': definition of dllimport function not allowed
+C:\GIthubProjects\cross-ipc\cross-ipc\cross_ipc.c(271,62): error C2491: 'SharedMemory_clear_api': definition of dllimport function not allowed
+C:\GIthubProjects\cross-ipc\cross-ipc\cross_ipc.c(275,62): error C2491: 'SharedMemory_close_api': definition of dllimport function not allowed
+C:\GIthubProjects\cross-ipc\cross-ipc\cross_ipc.c(279,63): error C2491: 'SharedMemory_unlink_api': definition of dllimport function not allowed
+C:\GIthubProjects\cross-ipc\cross-ipc\cross_ipc.c(284,91): error C2491: 'SharedMemory_lock_for_writing_api': definition of dllimport function not allowed
+C:\GIthubProjects\cross-ipc\cross-ipc\cross_ipc.c(288,76): error C2491: 'SharedMemory_unlock_from_writing_api': definition of dllimport function not allowed
+C:\GIthubProjects\cross-ipc\cross-ipc\cross_ipc.c(293,67): error C2491: 'ReqRespPattern_create': definition of dllimport function not allowed
+C:\GIthubProjects\cross-ipc\cross-ipc\cross_ipc.c(301,63): error C2491: 'ReqRespPattern_destroy': definition of dllimport function not allowed
+C:\GIthubProjects\cross-ipc\cross-ipc\cross_ipc.c(308,88): error C2491: 'ReqRespPattern_setup_server_api': definition of dllimport function not allowed
+C:\GIthubProjects\cross-ipc\cross-ipc\cross_ipc.c(312,88): error C2491: 'ReqRespPattern_setup_client_api': definition of dllimport function not allowed
+C:\GIthubProjects\cross-ipc\cross-ipc\cross_ipc.c(316,105): error C2491: 'ReqRespPattern_request_api': definition of dllimport function not allowed
+C:\GIthubProjects\cross-ipc\cross-ipc\cross_ipc.c(320,132): error C2491: 'ReqRespPattern_respond_api': definition of dllimport function not allowed
+C:\GIthubProjects\cross-ipc\cross-ipc\cross_ipc.c(324,65): error C2491: 'ReqRespPattern_close_api': definition of dllimport function not allowed

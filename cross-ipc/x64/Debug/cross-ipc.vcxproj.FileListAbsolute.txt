@@ -1,0 +1,2 @@
+C:\Dev\cross-ipc\x64\Debug\cross-ipc.exe
+C:\GIthubProjects\cross-ipc\cross-ipc\x64\Debug\cross-ipc.dll
